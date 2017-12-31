@@ -1,0 +1,59 @@
+
+body {
+
+    font-family: "Exo", "Bauhaus 93", sans-serif;
+  background-color: #315481;
+  background-image: linear-gradient(to bottom, #315481, #918e82 100%);
+  background-attachment: fixed;
+  color:#f2f2f2;
+ 
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+ 
+  padding: 0;
+  margin: 0;
+ 
+  font-size: 14px;
+}
+ 
+.crop-img{
+  max-height:225px;
+  max-width:100%;
+}
+
+.large-img{
+  max-width:100%;
+}
+
+h2{
+    text-align:justify;
+}
+
+.carousel-img{
+    margin-right: auto;
+    margin-left:auto;
+    padding: 10px;
+    max-height:300px;
+    max-width:100%;
+
+}
+
+/* 
+ * uncomment this for some css3 drop shadows and rounded corners.
+ */
+/*
+
+.thumbnail,.nav, .large-img, .crop-img{
+  border-radius: 25px;
+  padding-top:5px;
+   
+}
+
+.thumbnail,.nav {
+  box-shadow: 10px 10px 5px #888888;
+}
+
+*/
